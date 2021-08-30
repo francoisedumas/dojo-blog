@@ -1,11 +1,11 @@
 <template>
-  <div>
+  <div class="post">
     <router-link :to="{ name: 'Details', params: { id: post.id }}">
       <h3>{{ post.title }}</h3>
     </router-link>
     <p>{{ snippet }}</p>
     <span v-for="tag in post.tags" :key="tag">
-      #{{tag}}
+      #{{ tag }}
     </span>
   </div>
 </template>
@@ -46,7 +46,7 @@ export default {
     position: absolute;
     z-index: -1;
     padding-right: 40px;
-    left: -30px;
+    /* left: -30px; */
     transform: rotateZ(-1deg);
   }
 </style>

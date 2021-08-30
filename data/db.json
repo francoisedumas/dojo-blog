@@ -19,6 +19,16 @@
         "webdev",
         "coding"
       ]
+    },
+    {
+      "id": 9591,
+      "title": "My great post",
+      "body": "Blablabla",
+      "tags": [
+        "html",
+        "css",
+        "news"
+      ]
     }
   ]
 }
